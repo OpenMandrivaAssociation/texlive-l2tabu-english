@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/l2tabu/english
+# catalog-date 2008-03-16 17:19:11 +0100
+# catalog-license gpl
+# catalog-version 1.8.5.7
 Name:		texlive-l2tabu-english
 Version:	1.8.5.7
 Release:	1
@@ -21,6 +27,7 @@ Mark Trettin. A list of obsolete packages and commands.
 %files
 %doc %{_texmfdistdir}/doc/latex/l2tabu-english/l2tabuen.pdf
 %doc %{_texmfdistdir}/doc/latex/l2tabu-english/l2tabuen.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -31,3 +38,5 @@ Mark Trettin. A list of obsolete packages and commands.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
