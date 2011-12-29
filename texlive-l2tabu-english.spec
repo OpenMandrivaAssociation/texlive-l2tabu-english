@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-english.do
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 English translation of the l2tabu practical guide to LaTeX2e by
@@ -27,7 +25,6 @@ Mark Trettin. A list of obsolete packages and commands.
 %files
 %doc %{_texmfdistdir}/doc/latex/l2tabu-english/l2tabuen.pdf
 %doc %{_texmfdistdir}/doc/latex/l2tabu-english/l2tabuen.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,5 +35,3 @@ Mark Trettin. A list of obsolete packages and commands.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
