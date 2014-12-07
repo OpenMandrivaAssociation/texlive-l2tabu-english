@@ -6,7 +6,7 @@
 # catalog-version 1.8.5.7
 Name:		texlive-l2tabu-english
 Version:	1.8.5.7
-Release:	8
+Release:	9
 Summary:	English translation of "Obsolete packages and commands"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/l2tabu/english
