@@ -1,6 +1,6 @@
 Name:		texlive-l2tabu-english
 Version:	15878
-Release:	1
+Release:	2
 Summary:	English translation of "Obsolete packages and commands"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/l2tabu/english
