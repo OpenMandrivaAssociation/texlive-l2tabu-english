@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	English translation of "Obsolete packages and commands"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/l2tabu/english
+URL:		https://www.ctan.org/tex-archive/info/l2tabu/english
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-english.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-english.doc.r%{version}.tar.xz
